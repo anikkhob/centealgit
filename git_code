@@ -1,1 +1,39 @@
-My is git code 
+<DOTYPE html>
+<html>
+<head>
+<Style>
+body {background-color: lightgreen;}
+</Style>
+</head>
+<body>
+<title> Attendeane </title>
+<marquee> <U> Attendeane is HMIS </U> </marquee>
+<center>
+<p style="font-size:30px;"><B><U>MEDD:: Attendeane Systems</B></p> </U>
+</center>
+<center>
+<table>
+<tr> UserName:
+</tr>
+<label for="Username"></label>
+<input type="text": UserName>
+</table>
+</center>
+<center>
+<table> 
+<form action="/action_page.php">
+<label for="pwd">Password:</label>
+<input type="password" id="pwd" name="password" minlength="8" <br> </br>
+</form>
+</table>
+</center>
+<br> </br>
+<center>
+<button type="submit" value="Sumbit" Sumbit>Sumbit</button>
+</center>
+</body>
+</html>
+
+
+
+
