@@ -297,3 +297,73 @@ h2{
 
 
 
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,intial,intial-scale=1">
+<link rel ="stylesheet" href="/w3css/3/w3.css">
+<link rel="stylesheet" href=http://cdnjis.cloudflare.com/ajax/libs/fontawesome/4.6.3/css/font-awesome.min.css">
+<body>
+<!-- Navigation -->
+<nav class=w3-bar w3-black">
+<a href="#home" class="w3-button w3-bar-item">Home</a>
+<a href="#videos" class=-"w3-button w3-bar-item">videos</a>
+<a href=#tour" class=-w3-button  w3-bar-item">Tour</a>
+<a href=#photo" class=-w2-button w3-bar-item">photo</a>
+</nav>
+<!-- Slide Show -->
+<section>
+<img class="mySlides" Scr="1.jpeg"
+style="width:100%">
+<img class="mySlides" Scr="2.jpeg"
+style="width:100%">
+<img class="mySlides" Scr="3.jpeg"
+style='width:100%">
+</section>
+<!-- Fashion Description -->
+<section class="w3-contaiter w3-content" style="max-width:600px">
+<h2 class="w3-wide"> Barand Lockdowns </h2>
+<p class ="w3-opacity"><i> We Love Fashion and style <i></p>
+</section>
+<!--Fashion Membars -->
+<section class="w3-row-padding w3-content w-ligth-grey">
+<article>
+<article class ="w3-third">
+<P>Any</p>
+<img Scr="img_4.jpg" alt="Ramdom Name" style=width:100%">
+<p>Any is  somethig. </p>
+</article>
+<article>
+<article class=w3-third">
+<p>Mayur</p>
+<img scr="img_5.jpg alt="ramdom Name" style="wdth:100%">
+<p> Mayur is somethig</P>
+</article>
+<section>
+!-- Footer -->
+<footer class="w3-contaiter w3-padding-64 w3-content w3-black w3-xlarge">
+<a herf="#"><i class="fa -instagram-official"></i></a>
+<a herf="#"><i class="fa -Youtube-p"></i></a>
+<p class=w3-medium">
+Powered by <a hred="http://www.3wschools.com/w3css/default.asp" target="_black">w3.css</a>
+</P>
+</footer>
+<script>
+// Automatic Slideshow- Change image every 3 seconds
+var MyIndex = 0;
+carousel();
+function carousel)(){}
+var i;
+var x=document.getElemantsbyClassNmae("mySlides");
+for (i =0;<x.length;i++) {x[i].style.display="none":
+}mySlides++;
+if (MyIndex>x.length) {MyIndex =1}
+x[MyIndex].style.display= "black";
+setTimeout(carousel,3000);
+}
+</script>
+</body>
+</html>
+
+
+
