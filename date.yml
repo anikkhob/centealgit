@@ -1,0 +1,8 @@
+--- # installtion on ansible 
+- hosts: git_hub
+  user: root
+  conaction: ssh
+
+- name: installtion on samba 
+  yum: pkg=smaba state=present
+
